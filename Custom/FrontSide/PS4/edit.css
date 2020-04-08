@@ -1,0 +1,54 @@
+.edit.controller.ds4 {
+    background: url(assets/base.svg)
+}
+
+.edit.ds4.disconnected {
+    background: url(assets/disconnected.svg);
+}
+
+.edit .stick {
+    position: absolute;
+    background: url(assets/sticks.svg);
+}
+
+.edit .trigger {
+    background: url(assets/triggers.svg);
+}
+
+.edit .bumper {
+    background: url(assets/bumper.svg) no-repeat;
+}
+
+.edit .button {
+    position: absolute;
+    background: url(assets/face.svg);
+}
+
+.edit .a {
+    background-position: 0 0;
+}
+
+.edit .b {
+    background-position: -57px 0;
+}
+
+.edit .x {
+    background-position: -113px 0;
+}
+
+.edit .y {
+    background-position: 55px 0;
+}
+
+.edit .face {
+    background: url(assets/dpad.svg);
+    position: absolute;
+}
+
+.edit .meta.pressed {
+    background: url(assets/meta.svg) no-repeat center;
+}
+
+.edit .back, .edit .start {
+    background: url(assets/start.svg);
+}
